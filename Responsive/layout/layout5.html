@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {margin: 0; padding: 0;}
+    body {background: #f1f8e9;}
+    #wrap {width: 1200px; margin: 0 auto;}
+    header {width: 100%; height: 150px; background: #c5e1a5;}
+    aside {float: left; width: 40%; height: 900px; background: #aed581;}
+    .article1 {float: left; width: 60%; height: 300px; background: #9ccc65;}
+    .article2 {float: left; width: 60%; height: 300px; background: #8bc34a;}
+    .article3 {float: left; width: 60%; height: 300px; background: #7cb342;}
+    footer{clear: both; width: 100%; height: 150px; background: #689f38;}
+
+    /* 화면 너비 0 ~ 1200px */
+    @media (max-width:1240px) {
+      #wrap {width: 100%;}
+      .article1 {height: 450px;}
+      .article2 {height: 450px;}
+      .article3 {width: 100%; height: 300px;}
+    }
+    /* 화면 너비 0 ~ 768px */
+    @media (max-width:768px) {
+      aside {width: 100%; height: 300px;}
+      .article1 {width: 50%;}
+      .article2 {width: 50%;}
+    }
+    /* 화면 너비 0 ~ 480px */
+    @media (max-width:480px) {
+      .article1 {width: 100%;}
+      .article2 {width: 100%;}
+    }
+  </style>
+
+  <title>Layout5</title>
+</head>
+<body>
+  <div id="wrap">
+    <header></header>
+    <aside></aside>
+    <article class="article1"></article>
+    <article class="article2"></article>
+    <article class="article3"></article>
+    <footer></footer>
+  </div>
+</body>
+</html>
