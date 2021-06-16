@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "jihye";
+  font-style: normal;
+  font-weight: 300;
+  src: url('./font/NanumSquareRoundL.eot'); /* IE9 Compat Modes */
+  src: url('./font/NanumSquareRoundL.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./font/NanumSquareRoundL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./font/NanumSquareRoundL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./font/NanumSquareRoundL.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "jihye";
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/NanumSquareRoundR.eot'); /* IE9 Compat Modes */
+  src: url('./font/NanumSquareRoundR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./font/NanumSquareRoundR.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./font/NanumSquareRoundR.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./font/NanumSquareRoundR.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "jihye";
+  font-style: normal;
+  font-weight: 700;
+  src: url('./font/NanumSquareRoundB.eot'); /* IE9 Compat Modes */
+  src: url('./font/NanumSquareRoundB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./font/NanumSquareRoundB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./font/NanumSquareRoundB.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./font/NanumSquareRoundB.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "jihye";
+  font-style: normal;
+  font-weight: 800;
+  src: url('./font/NanumSquareRoundEB.eot'); /* IE9 Compat Modes */
+  src: url('./font/NanumSquareRoundEB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./font/NanumSquareRoundEB.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./font/NanumSquareRoundEB.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./font/NanumSquareRoundEB.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
