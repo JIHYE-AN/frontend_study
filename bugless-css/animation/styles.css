@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-family: "Muli", sans-serif;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding: 80px 100px;
+}
+
+.loading-title {
+  font-size: 18px;
+  line-height: 1.333333333333333;
+  color : #151B26;
+  font-weight: 400;
+  margin-bottom: 20px;
+  animation-name: fliker;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.progress-bar {
+  position: relative;
+  width: 300px;
+  height: 12px;
+  background-color: #E5EAEF;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.progress-bar .progress-bar-gauge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 12px;
+  background-color: #13CE66;
+  animation-name: bar-guage;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fliker {
+  from{
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes bar-guage {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  80% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+span{
+  font-size: 16px;
+  line-height: 1.25;
+  color: #7D858F;
+}
+
+.sr-only {
+  position: absolute;
+  z-index: -1;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.like-button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  width: 840px;
+  padding: 24px;
+  display: flex;
+}
+
+.card-image {
+  width: 300px;
+  height: 200px;
+  background-image: url("./assets/img-house.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 6px;
+  margin-right: 24px;
+}
+
+.like-button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: url("./assets/icon-favorite.svg") no-repeat center center;
+  background-color: #fff;
+  margin : 12px;
+  cursor: pointer;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.property-type .plus-badge {
+  font-size: 14px;
+  line-height: 1.428571428571429;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  background: #92174D;
+  border-radius: 4px;
+  padding: 1px 8px;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+.property-rate strong {
+  font-size: 16px;
+  color: #151B26;
+}
+
+.property-rate strong::before {
+  content: '';
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("./assets/icon-star.svg") no-repeat center center;
+  background-size: contain;
+
+}
+
+.card-title {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #151B26;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.property-detail {
+  font-size: 14px;
+  line-height: 1.142857142857143;
+  color: #7D858F;
+  font-weight: 400;
+}
+
+.property-detail div:first-child {
+  margin-bottom: 8px;
+}
+
+.property-detail div dd span::after{
+  content: '·';
+  margin: 0 6px;
+}
+
+.property-detail div dd span:last-of-type::after{
+  content: '';
+  margin: 0;
+}
